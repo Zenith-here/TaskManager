@@ -10,7 +10,7 @@ import {
 } from "../assets/dummy";
 import { CheckCircle2, MoreVertical, Clock, Calendar } from "lucide-react";
 
-const API_BASE = "https://taskmanager-backend-781c.onrender.com/api/tasks";
+const API_BASE = "http://localhost:4000/api/tasks";
 
 const TaskItem = ({
   task,

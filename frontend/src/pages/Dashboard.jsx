@@ -16,7 +16,7 @@ import TaskItem from "../components/TaskItem";
 import axios from "axios";
 
 // API Base
-const API_BASE = "https://taskmanager-backend-781c.onrender.com/api/tasks";
+const API_BASE = "http://localhost:4000/api/tasks";
 
 const Dashboard = () => {
   const { tasks, refreshTasks } = useOutletContext();
