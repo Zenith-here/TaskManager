@@ -12,7 +12,7 @@ import {
 import TaskItem from "../components/TaskItem";
 import TaskModal from "../components/AddTask";
 
-const API_BASE = "http://localhost:4000/api/tasks";
+const API_BASE = "https://taskmanager-backend-781c.onrender.com/api/tasks";
 const sortOptions = [
   { id: "newest", label: "Newest", icon: <SortDesc className="w-3 h-3" /> },
   { id: "oldest", label: "Oldest", icon: <SortAsc className="w-3 h-3" /> },

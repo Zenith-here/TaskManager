@@ -22,7 +22,7 @@ import {
   securityFields,
 } from "../assets/dummy";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://taskmanager-backend-781c.onrender.com";
 
 export default function Profile({ setCurrentUser, onLogout }) {
   const [profile, setProfile] = useState({ name: "", email: "" });
