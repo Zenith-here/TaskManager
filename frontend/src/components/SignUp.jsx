@@ -10,7 +10,7 @@ import {
   MESSAGE_ERROR,
 } from "../assets/dummy";
 
-const API_URL = "https://taskmanager-backend-781c.onrender.com";
+const API_URL = "http://localhost:4000";
 const INITIAL_FORM = { name: "", email: "", password: "" };
 
 const SignUp = ({ onSwitchMode }) => {
