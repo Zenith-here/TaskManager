@@ -14,7 +14,7 @@ import {
   DEFAULT_TASK,
 } from "../assets/dummy";
 
-const API_BASE = "http://localhost:4000/api/tasks";
+const API_BASE = "https://taskmanager-backend-80m7.onrender.com/api/tasks";
 
 const TaskModal = ({ isOpen, onClose, taskToEdit, onSave, onLogout }) => {
   const [taskData, setTaskData] = useState(DEFAULT_TASK);
